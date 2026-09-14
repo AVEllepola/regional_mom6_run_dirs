@@ -1,0 +1,21 @@
+laboratory path:  /scratch/nm03/ae7501/mom6
+binary path:  /scratch/nm03/ae7501/mom6/bin
+input path:  /scratch/nm03/ae7501/mom6/input
+work path:  /scratch/nm03/ae7501/mom6/work
+archive path:  /scratch/nm03/ae7501/mom6/archive
+Found experiment archive: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-54f541aa
+No prior restart path provided. Skip adding parent branch time to metadata.
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+
+======================================================================================
+                  Resource Usage on 2026-09-14 10:42:32:
+   Job Id:             178921747.gadi-pbs
+   Project:            nm03
+   Exit Status:        1
+   Service Units:      11.95
+   NCPUs Requested:    2688                CPU Time Used: 00:00:07        
+   Memory Requested:   10.5TB                Memory Used: 584.68MB        
+   Walltime Requested: 10:00:00            Walltime Used: 00:00:08        
+   JobFS Requested:    10.0GB                 JobFS Used: 0B              
+======================================================================================

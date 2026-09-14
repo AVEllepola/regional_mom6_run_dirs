@@ -1,0 +1,24 @@
+[WARNING] Payu expects to run from repository root to ensure metadata tracking.
+Current situation leads to an InvalidGitRepositoryError.
+Suggest fix:
+    Move the control directory to the a separate directory with its own git repository
+
+[ERROR] [Errno 2] No such file or directory: '/home/130/ae7501/mom6_run_directories/2026_September/kimberly_10k5_091126/MOM_layout'
+Traceback (most recent call last):
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/cli.py", line 337, in _execute_command
+    func(**args)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/subcommands/run_cmd.py", line 201, in runscript
+    expt.setup()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/experiment.py", line 69, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/experiment.py", line 578, in setup
+    model.setup()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/models/mom6.py", line 111, in setup
+    self.setup_configuration_files()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/models/model.py", line 242, in setup_configuration_files
+    shutil.copy(f_path, self.work_path, follow_symlinks=True)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/shutil.py", line 417, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/shutil.py", line 254, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/130/ae7501/mom6_run_directories/2026_September/kimberly_10k5_091126/MOM_layout'

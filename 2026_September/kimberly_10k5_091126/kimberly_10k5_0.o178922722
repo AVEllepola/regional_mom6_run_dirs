@@ -1,0 +1,36 @@
+laboratory path:  /scratch/nm03/ae7501/mom6
+binary path:  /scratch/nm03/ae7501/mom6/bin
+input path:  /scratch/nm03/ae7501/mom6/input
+work path:  /scratch/nm03/ae7501/mom6/work
+archive path:  /scratch/nm03/ae7501/mom6/archive
+Found experiment archive: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-55f4c6ee
+No prior restart path provided. Skip adding parent branch time to metadata.
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe, input and restart manifests
+Writing manifests/restart.yaml
+mod access-om3/2025.08.003-tracers-from-file
+mod model-tools/mppnccombine-fast/2025.07.000
+mod nco/5.0.5
+mod fre-nctools/2024.05-1
+mpirun  -wdir /scratch/nm03/ae7501/mom6/work/kimberly_10k5_091126-55f4c6ee -np 2688  /scratch/nm03/ae7501/mom6/work/kimberly_10k5_091126-55f4c6ee/MOM6-f34dd6cb
+/home/130/ae7501/mom6_run_directories/2026_September/kimberly_10k5_091126/mom6.err /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-55f4c6ee/error_logs/mom6.178922722.gadi-pbs.err
+/home/130/ae7501/mom6_run_directories/2026_September/kimberly_10k5_091126/mom6.out /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-55f4c6ee/error_logs/mom6.178922722.gadi-pbs.out
+/home/130/ae7501/mom6_run_directories/2026_September/kimberly_10k5_091126/env.yaml /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-55f4c6ee/error_logs/env.178922722.gadi-pbs.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+
+======================================================================================
+                  Resource Usage on 2026-09-14 11:00:18:
+   Job Id:             178922722.gadi-pbs
+   Project:            nm03
+   Exit Status:        1
+   Service Units:      43.31
+   NCPUs Requested:    2688                CPU Time Used: 04:18:23        
+   Memory Requested:   10.5TB                Memory Used: 907.15GB        
+   Walltime Requested: 10:00:00            Walltime Used: 00:00:29        
+   JobFS Requested:    10.0GB                 JobFS Used: 0B              
+======================================================================================

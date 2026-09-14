@@ -1,0 +1,10 @@
+[WARNING] Payu expects to run from repository root to ensure metadata tracking.
+Current situation leads to an InvalidGitRepositoryError.
+Suggest fix:
+    Move the control directory to the a separate directory with its own git repository
+
+Currently Loaded Modulefiles:
+ 1) access-om3/2025.08.003-tracers-from-file    4) fre-nctools/2024.05-1  
+ 2) model-tools/mppnccombine-fast/2025.07.000   5) openmpi/4.1.2          
+ 3) nco/5.0.5                                   6) pbs                    
+[ERROR] Model exited with error code 1
