@@ -1,0 +1,32 @@
+Currently Loaded Modulefiles:
+ 1) access-om3/2025.08.003-tracers-from-file    4) fre-nctools/2024.05-1  
+ 2) model-tools/mppnccombine-fast/2025.07.000   5) pbs                    
+ 3) nco/5.0.5                                   6) openmpi/4.1.2          
+[WARNING] Failed to commit runlog changes to git repository: Cmd('git') failed due to: exit code(128)
+  cmdline: git read-tree --index-output=/home/130/ae7501/mom6_run_directories/2026_September/kimberly_10k5_091126/.git/tmp6j7d8px3 HEAD
+  stderr: 'fatal: Not a valid object name HEAD'.
+[ERROR] Reference at 'refs/heads/master' does not exist
+Traceback (most recent call last):
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/cli.py", line 337, in _execute_command
+    func(**args)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/subcommands/run_cmd.py", line 202, in runscript
+    expt.run()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/experiment.py", line 69, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/experiment.py", line 736, in run
+    self.runlog.commit()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/runlog.py", line 81, in commit
+    self.expt.run_id = git_repo.get_hash()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/git_utils.py", line 110, in get_hash
+    return self.repo.head.object.hexsha
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/git/refs/symbolic.py", line 429, in object
+    return self._get_object()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/git/refs/symbolic.py", line 315, in _get_object
+    return Object.new_from_sha(self.repo, hex_to_bin(self.dereference_recursive(self.repo, self.path)))
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/git/refs/symbolic.py", line 195, in dereference_recursive
+    hexsha, ref_path = cls._get_ref_info(repo, ref_path)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/git/refs/symbolic.py", line 305, in _get_ref_info
+    return cls._get_ref_info_helper(repo, ref_path)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/git/refs/symbolic.py", line 284, in _get_ref_info_helper
+    raise ValueError("Reference at %r does not exist" % ref_path)
+ValueError: Reference at 'refs/heads/master' does not exist

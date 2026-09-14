@@ -1,0 +1,8 @@
+format: yamanifest
+version: 1.0
+---
+work/MOM6-f34dd6cb:
+  fullpath: /g/data/x77/ahg157/exes/MOM6_SIS2/MOM6-f34dd6cb
+  hashes:
+    binhash: 73788be68508140be42904749ce64c02
+    md5: 51b95fd25f86fbf3ef00945062f90dcf

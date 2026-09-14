@@ -1,0 +1,48 @@
+project: nm03
+queue: normal
+walltime: 10:00:00
+jobname: kimberly_10k5_091126
+ncpus: 3200
+jobfs: 10GB
+shortpath: /scratch/nm03
+
+model: mom6
+input:
+    - /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126
+
+## You'll need to provide your own executable. If on gadi, you can request access to this one
+## but beware, ACCESS-NRI isn't actively maintaining an FMS based executable since they now
+## work with NUOPC. See the rOM3 setup instead for a better maintained NUOPC based 
+## regional mom6 run on Gadi / NCI
+exe: /g/data/x77/ahg157/exes/MOM6_SIS2/MOM6-f34dd6cb
+
+
+storage:
+  gdata:
+    - x77
+    - nm03
+    - ik11
+    - g40
+    - vk83
+
+mpi:
+  module: openmpi/4.1.2
+
+modules:
+    use:
+        - /g/data/vk83/modules
+        - /g/data/x77/ahg157/spack/1.1/release/modules/linux-rocky8-x86_64
+    load:
+        - access-om3/2025.08.003-tracers-from-file
+        - model-tools/mppnccombine-fast
+        - nco/5.0.5
+        - fre-nctools/2024.05-1
+collate:
+    flags: -n4 -m -r
+    exe: mppnccombine
+    restart: true
+    mpi: false
+    walltime: 2:00:00
+    mem: 30GB
+    ncpus: 1
+    queue: normalsr

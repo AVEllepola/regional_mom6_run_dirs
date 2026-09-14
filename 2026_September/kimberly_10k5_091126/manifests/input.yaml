@@ -1,0 +1,158 @@
+format: yamanifest
+version: 1.0
+---
+work/INPUT/10u_ERA5.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/10u_ERA5.nc
+  hashes:
+    binhash: b8b077ab86a56fd4ff2bacefbd034fe9
+    md5: 834a976c616275028e27fa5667f46c95
+work/INPUT/10v_ERA5.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/10v_ERA5.nc
+  hashes:
+    binhash: 292d4a9bf24e4af84d9d5202a57ccd03
+    md5: 8db7395dc74854360cc6970e90a104d3
+work/INPUT/2t_ERA5.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/2t_ERA5.nc
+  hashes:
+    binhash: 3c8af074079430277c34cea48d3c81a6
+    md5: 87768f5d69832e6654180f935f01f593
+work/INPUT/atmos_mosaic_tile1Xland_mosaic_tile1.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/atmos_mosaic_tile1Xland_mosaic_tile1.nc
+  hashes:
+    binhash: e13536e60f2eb791ef37938cf12fbf42
+    md5: 5e0a447ccdfb83c1718bc37ae470da28
+work/INPUT/atmos_mosaic_tile1Xocean_mosaic_tile1.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/atmos_mosaic_tile1Xocean_mosaic_tile1.nc
+  hashes:
+    binhash: 1af100d770f01ae7bbb57fe10a180a17
+    md5: cb0429b63486a625d63ba4276f33a06b
+work/INPUT/bathymetry.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/bathymetry.nc
+  hashes:
+    binhash: d888975ff4282255141f4bc893e24a60
+    md5: e9fa22ca649a8f3b422910b578c5980e
+work/INPUT/bathymetry_original.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/bathymetry_original.nc
+  hashes:
+    binhash: b2b1aa07dfb7f068d437dbba8b1014ec
+    md5: 6ca0dff142504e5816cd5e107f79ca49
+work/INPUT/bathymetry_unfinished.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/bathymetry_unfinished.nc
+  hashes:
+    binhash: c12a2f75b31da27dd62f70c153ddca38
+    md5: 491e5538fa905d76169ffa3d3f1aacb2
+work/INPUT/forcing_obc_segment_001.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/forcing_obc_segment_001.nc
+  hashes:
+    binhash: bcb554acf108f4960a13a1aa4c23b3fc
+    md5: 669ab2c0b65f93444198edbd1d176d66
+work/INPUT/forcing_obc_segment_002.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/forcing_obc_segment_002.nc
+  hashes:
+    binhash: 800addf15c4190629731d8403ebdd3e0
+    md5: 1f6755580efd94d3fb2f9a8d3ae35fbd
+work/INPUT/forcing_obc_segment_003.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/forcing_obc_segment_003.nc
+  hashes:
+    binhash: a276621f3dfeb0fd6bd4b86355a41bf9
+    md5: c47e1a5d3162ae485aae44266d21444f
+work/INPUT/forcing_obc_segment_004.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/forcing_obc_segment_004.nc
+  hashes:
+    binhash: 2e8b10d8e96c48ea30025bd4b0805160
+    md5: f216b7b2adc0f14b3c29836872d7a650
+work/INPUT/grid_spec.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/grid_spec.nc
+  hashes:
+    binhash: ece72f309c2ec003c226b539c35f90d0
+    md5: 12f5785978e213b8e387998cf3651662
+work/INPUT/hgrid.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/hgrid.nc
+  hashes:
+    binhash: daf9af6fa43d4a4b95f80a9d154b6b30
+    md5: ffdd931f9cf8bb50c863bfbf5d7c217b
+work/INPUT/init_eta.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/init_eta.nc
+  hashes:
+    binhash: 99ce30502508c7fafabe3b0d16ad6a24
+    md5: d3eddcbab11d043b705f94157e3042b4
+work/INPUT/init_tracers.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/init_tracers.nc
+  hashes:
+    binhash: bc2ad5bd4c0b37bc7fd1072deb151df8
+    md5: 867d27c27fb66d2457caaa87f36cef20
+work/INPUT/init_vel.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/init_vel.nc
+  hashes:
+    binhash: c31298cc1ebd6a61bc5680cb188dcc3e
+    md5: 19155e34a8bcff4b359d6fee052a6c4c
+work/INPUT/land_mask.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/land_mask.nc
+  hashes:
+    binhash: 3da9c365d1923a64a84744488094a577
+    md5: 9ce135c52802cb70fa4c969a048fabe7
+work/INPUT/land_mosaic_tile1Xocean_mosaic_tile1.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/land_mosaic_tile1Xocean_mosaic_tile1.nc
+  hashes:
+    binhash: a84cbbf467e5f33447f7dc0c7e7226f0
+    md5: 10d34a28c7f849f47b8601dc94fe9e4e
+work/INPUT/msdwlwrf_ERA5.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/msdwlwrf_ERA5.nc
+  hashes:
+    binhash: beb7edf5e1661896d81673762b3ae0ed
+    md5: a3fb0fdf98e247d7c65c606981faf13d
+work/INPUT/msdwswrf_ERA5.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/msdwswrf_ERA5.nc
+  hashes:
+    binhash: 4340abec4b37d5c3fcfeae33861d4463
+    md5: 921d1216ba6b0339f187ae7edc621a83
+work/INPUT/ocean_mask.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/ocean_mask.nc
+  hashes:
+    binhash: 9e258af693abf0f28ac4fa70452eed86
+    md5: 332d5bb68b722f48926a554fde038aae
+work/INPUT/ocean_mosaic.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/ocean_mosaic.nc
+  hashes:
+    binhash: 3755a221cec3d35c15183622f9cbb45b
+    md5: 16f696e0babd756b0fb398099774bbf8
+work/INPUT/q_ERA5.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/q_ERA5.nc
+  hashes:
+    binhash: 6ff2dc11d96fb300d646c97954aeb527
+    md5: 38db8feba8453a498841271e302df4a6
+work/INPUT/sp_ERA5.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/sp_ERA5.nc
+  hashes:
+    binhash: 7d2f1cd0b4d383bb92770b05ac18c679
+    md5: fc8005d44704e9c21b285600618d14aa
+work/INPUT/trr_ERA5.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/trr_ERA5.nc
+  hashes:
+    binhash: ea4c05429622983655070f4cd54668cb
+    md5: e205b3f98822c52445e75324a2d314e0
+work/INPUT/vcoord.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/vcoord.nc
+  hashes:
+    binhash: 376520b5fd0b51d41e46568162896f80
+    md5: 2ab214bddc89f1454e141c075fa5afcb
+work/INPUT/weights/bilinear_tracer_weights_east.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/weights/bilinear_tracer_weights_east.nc
+  hashes:
+    binhash: a2094914f78d2dd8a49d1b1df4d1b162
+    md5: 8aeedce4d9054633e3b7540972de405c
+work/INPUT/weights/bilinear_tracer_weights_north.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/weights/bilinear_tracer_weights_north.nc
+  hashes:
+    binhash: 508f5319d10c3f93833a3019bb66495e
+    md5: 27b9381627fb29ee3a385eea5729e0e1
+work/INPUT/weights/bilinear_tracer_weights_south.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/weights/bilinear_tracer_weights_south.nc
+  hashes:
+    binhash: e79dc3d432c3a983d232c327fc8f96b5
+    md5: 31cfea65d010842ccc4706599984986b
+work/INPUT/weights/bilinear_tracer_weights_west.nc:
+  fullpath: /scratch/nm03/ae7501/mom6_input_directories/kimberly_10k5_091126/weights/bilinear_tracer_weights_west.nc
+  hashes:
+    binhash: 990361cb99f0401685b574d4386985c6
+    md5: 0878f165998a6b5cdf5c2907e0a72d5e
