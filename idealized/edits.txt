@@ -1,0 +1,36 @@
+
+&coupler_nml
+    months = 0
+    days = 5
+    hours = 0
+    current_date = 1, 1, 1, 0, 0, 0
+    calendar = 'JULIAN'
+    dt_cpld = 3600
+    dt_atmos = 3600
+    do_atmos = .false.
+    do_land = .false.
+    do_ice = .true.
+    do_ocean = .true.
+    do_flux = .true.
+    atmos_npes = 0
+    concurrent = .false.
+    use_lag_fluxes = .false.
+    check_stocks = 0
+/
+
+
+
+LAPLACIAN = True                !   [Boolean] default = False
+                                ! If true, use a Laplacian horizontal viscosity.
+KH_VEL_SCALE = 0.003            !   [m s-1] default = 0.0
+                                ! The velocity scale which is multiplied by the grid spacing to calculate the
+                                ! Laplacian viscosity. The final viscosity is the largest of this scaled
+                                ! viscosity, the Smagorinsky and Leith viscosities, and KH.
+AH_VEL_SCALE = 0.01             !   [m s-1] default = 0.0
+                                ! The velocity scale which is multiplied by the cube of the grid spacing to
+                                ! calculate the biharmonic viscosity. The final viscosity is the largest of this
+                                ! scaled viscosity, the Smagorinsky and Leith viscosities, and AH.
+SMAGORINSKY_AH = True           !   [Boolean] default = False
+                                ! If true, use a biharmonic Smagorinsky nonlinear eddy viscosity.
+SMAG_BI_CONST = 0.06            !   [nondim] default = 0.0
+                              

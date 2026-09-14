@@ -1,0 +1,28 @@
+project: nm03
+queue: normal
+walltime: 5:00:00
+jobname: test
+ncpus: 96
+jobfs: 10GB
+shortpath: /scratch/nm03
+
+model: mom6
+input:
+    - /scratch/nm03/ae7501/mom6_input_directories/idealized/test/INPUT
+
+exe: /g/data/x77/ahg157/exes/MOM6/MOM6-42ab6cd9 #ocean only
+
+
+#runlog: true
+
+storage:
+  gdata:
+    - x77
+    - nm03
+    - ik11
+    - g40
+    - vk83
+mpi:
+  module: openmpi/4.1.2
+
+

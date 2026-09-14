@@ -1,0 +1,10 @@
+! Blank file in which we can put "overrides" for parameters
+#override NK = 1
+#override DT=70
+#override DT_THERM=300
+#override NIGLOBAL = 5000   
+#override NJGLOBAL = 4000
+#override LAYOUT = 30,24 
+#override MAXIMUM_DEPTH = 500.0  
+#override LENLAT = 400000  
+#override LENLON = 500000  

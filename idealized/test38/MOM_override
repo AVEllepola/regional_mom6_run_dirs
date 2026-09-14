@@ -1,0 +1,5 @@
+! Blank file in which we can put "overrides" for parameters
+#override NK = 1
+#override DT=70
+#override DT_THERM=300
+#MAXIMUM_DEPTH = 500.0  
