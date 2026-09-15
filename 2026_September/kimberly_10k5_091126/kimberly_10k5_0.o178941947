@@ -1,0 +1,59 @@
+laboratory path:  /scratch/nm03/ae7501/mom6
+binary path:  /scratch/nm03/ae7501/mom6/bin
+input path:  /scratch/nm03/ae7501/mom6/input
+work path:  /scratch/nm03/ae7501/mom6/work
+archive path:  /scratch/nm03/ae7501/mom6/archive
+Found experiment archive: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b
+nruns: 6 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe, input and restart manifests
+Writing manifests/restart.yaml
+mod access-om3/2025.08.003-tracers-from-file
+mod model-tools/mppnccombine-fast/2025.07.000
+mod nco/5.0.5
+mod fre-nctools/2024.05-1
+mpirun  -wdir /scratch/nm03/ae7501/mom6/work/kimberly_10k5_091126-259ace0b -np 2688  /scratch/nm03/ae7501/mom6/work/kimberly_10k5_091126-259ace0b/MOM6-f34dd6cb
+Provenance information is written to restarts: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/restart_metadata.yaml
+laboratory path:  /scratch/nm03/ae7501/mom6
+binary path:  /scratch/nm03/ae7501/mom6/bin
+input path:  /scratch/nm03/ae7501/mom6/input
+work path:  /scratch/nm03/ae7501/mom6/work
+archive path:  /scratch/nm03/ae7501/mom6/archive
+Found experiment archive: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+------ Job submitted ------
+Submitted command: qsub -P nm03 -l walltime=2:00:00 -l ncpus=1 -l mem=30GB -l jobfs=10GB -N kimberly_10k5_c -l wd -j n -W depend=afterok:178941947.gadi-pbs -q normalsr -l storage=gdata/ik11+scratch/nm03+gdata/nm03+gdata/x77+gdata/g40+gdata/vk83 -v PAYU_PATH=/containerised_envs/payu/1.3.6_1/bin,PAYU_CURRENT_RUN=1,PAYU_EXIST_WORKFLOW=True,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data/x77/ahg157/spack/1.1/release/modules/linux-rocky8-x86_64:/g/data/xp65/public/modules:/g/data/vk83/modules:/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -- /g/data/vk83/apps/containerised_envs/envs/payu/1.3.6_1/bin/launcher.sh /containerised_envs/payu/1.3.6_1/bin/python3.10 /containerised_envs/payu/1.3.6_1/bin/payu-collate
+Job ID: 178977503.gadi-pbs
+payu: Found modules in /opt/Modules/v4.3.0
+laboratory path:  /scratch/nm03/ae7501/mom6
+binary path:  /scratch/nm03/ae7501/mom6/bin
+input path:  /scratch/nm03/ae7501/mom6/input
+work path:  /scratch/nm03/ae7501/mom6/work
+archive path:  /scratch/nm03/ae7501/mom6/archive
+Found experiment archive: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+------ Job submitted ------
+Submitted command: qsub -P nm03 -l walltime=10:00:00 -l ncpus=2688 -l mem=10752GB -l jobfs=10GB -N kimberly_10k5_0 -l wd -j n -q normal -l storage=gdata/g40+scratch/nm03+gdata/nm03+gdata/vk83+gdata/x77+gdata/ik11 -v PAYU_PATH=/containerised_envs/payu/1.3.6_1/bin,PAYU_CURRENT_RUN=2,PAYU_N_RUNS=5,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data/x77/ahg157/spack/1.1/release/modules/linux-rocky8-x86_64:/g/data/xp65/public/modules:/g/data/vk83/modules:/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -- /g/data/vk83/apps/containerised_envs/envs/payu/1.3.6_1/bin/launcher.sh /containerised_envs/payu/1.3.6_1/bin/python3.10 /containerised_envs/payu/1.3.6_1/bin/payu-run
+Job ID: 178977518.gadi-pbs
+
+======================================================================================
+                  Resource Usage on 2026-09-14 21:19:35:
+   Job Id:             178941947.gadi-pbs
+   Project:            nm03
+   Exit Status:        0
+   Service Units:      27017.39
+   NCPUs Requested:    2688                CPU Time Used: 13191:08:16     
+   Memory Requested:   10.5TB                Memory Used: 1.75TB          
+   Walltime Requested: 10:00:00            Walltime Used: 05:01:32        
+   JobFS Requested:    10.0GB                 JobFS Used: 8.16MB          
+======================================================================================

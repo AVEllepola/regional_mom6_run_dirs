@@ -1,0 +1,5 @@
+[WARNING] Payu expects to run from repository root to ensure metadata tracking.
+Current situation leads to an InvalidGitRepositoryError.
+Suggest fix:
+    Move the control directory to the a separate directory with its own git repository
+

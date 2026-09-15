@@ -27,8 +27,8 @@
 /
 
 &coupler_nml
-    months = 0
-    days = 2
+    months = 1
+    days = 0
     hours = 0
     current_date = 2016, 12, 29, 0, 0, 0
     calendar = 'JULIAN'

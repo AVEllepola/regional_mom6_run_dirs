@@ -1,0 +1,31 @@
+laboratory path:  /scratch/nm03/ae7501/mom6
+binary path:  /scratch/nm03/ae7501/mom6/bin
+input path:  /scratch/nm03/ae7501/mom6/input
+work path:  /scratch/nm03/ae7501/mom6/work
+archive path:  /scratch/nm03/ae7501/mom6/archive
+Found experiment archive: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b
+nruns: 5 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe, input and restart manifests
+Writing manifests/restart.yaml
+mod access-om3/2025.08.003-tracers-from-file
+mod model-tools/mppnccombine-fast/2025.07.000
+mod nco/5.0.5
+mod fre-nctools/2024.05-1
+mpirun  -wdir /scratch/nm03/ae7501/mom6/work/kimberly_10k5_091126-259ace0b -np 2688  /scratch/nm03/ae7501/mom6/work/kimberly_10k5_091126-259ace0b/MOM6-f34dd6cb
+
+======================================================================================
+                  Resource Usage on 2026-09-14 23:19:20:
+   Job Id:             178977518.gadi-pbs
+   Project:            nm03
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      10610.13
+   NCPUs Requested:    2688                CPU Time Used: 5158:04:25      
+   Memory Requested:   10.5TB                Memory Used: 1.45TB          
+   Walltime Requested: 10:00:00            Walltime Used: 01:58:25        
+   JobFS Requested:    10.0GB                 JobFS Used: 8.16MB          
+======================================================================================

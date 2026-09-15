@@ -1,3 +1,68 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/MOM.res.nc
+  hashes:
+    binhash: 73d324b0361aedc9d8adadb2f92ef240
+    md5: a7b769cf9a71456cf0e9d3a7a4ac57f9
+work/INPUT/MOM.res_1.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/MOM.res_1.nc
+  hashes:
+    binhash: b6cc53a04cd7bc7bdfea845be0de96c0
+    md5: d8906414f84859694da30716fa7d370e
+work/INPUT/MOM.res_2.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/MOM.res_2.nc
+  hashes:
+    binhash: f2c767c57f70cb981297c8d639b1e3b0
+    md5: 1753b6c2146ff06fa73f426c3e08fc7b
+work/INPUT/MOM.res_3.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/MOM.res_3.nc
+  hashes:
+    binhash: 65ca23271f07d9639e512708f426f7d4
+    md5: 2712c933145eb0b3d3841864a1937dd3
+work/INPUT/MOM.res_4.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/MOM.res_4.nc
+  hashes:
+    binhash: e89905d89e749101be719e01dd462a3e
+    md5: a9ec9129f313cb36c52397feff03f12f
+work/INPUT/MOM.res_5.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/MOM.res_5.nc
+  hashes:
+    binhash: 9887d7b76105692da250eb43d1fb7a98
+    md5: 1e284a99d5985dc8842d5d77530ba98e
+work/INPUT/MOM.res_6.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/MOM.res_6.nc
+  hashes:
+    binhash: b4a258f01714c5b67829e9cc6b863e03
+    md5: c590c5ab0406cae5fa24f71177b964fa
+work/INPUT/MOM.res_7.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/MOM.res_7.nc
+  hashes:
+    binhash: b595b2ba37f4696f5e5f8a72b9f2447c
+    md5: 4ee954827599341c27259c7e48b50ab8
+work/INPUT/MOM.res_8.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/MOM.res_8.nc
+  hashes:
+    binhash: 7c42f7e4105250188da1fcc23b45ec60
+    md5: 446a95a673421863ee0a66f008574030
+work/INPUT/MOM.res_9.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/MOM.res_9.nc
+  hashes:
+    binhash: 6a1f2e6d0ebddf7204aaae8c8353e7ea
+    md5: 11cc562e30c4a0fc59aca32ce15b1bbe
+work/INPUT/coupler.res:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/coupler.res
+  hashes:
+    binhash: a05b32e19124d6e31f86ee0044971ea0
+    md5: d54d99fe09cadd1692b3f78f4b43f974
+work/INPUT/ice_model.res.nc:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/ice_model.res.nc
+  hashes:
+    binhash: c670339e873b9584328fd6cfd58d3850
+    md5: f1eb79256ac4f5652eb7ac778356b73a
+work/INPUT/restart_metadata.yaml:
+  fullpath: /scratch/nm03/ae7501/mom6/archive/kimberly_10k5_091126-259ace0b/restart001/restart_metadata.yaml
+  hashes:
+    binhash: 388bbc9aa742c7dcf319fae2cfa95531
+    md5: 6d4b82473bd9881d345d7f249b950140
