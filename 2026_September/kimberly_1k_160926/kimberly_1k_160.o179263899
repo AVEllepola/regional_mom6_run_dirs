@@ -1,0 +1,51 @@
+laboratory path:  /scratch/nm03/ae7501/access-om3
+binary path:  /scratch/nm03/ae7501/access-om3/bin
+input path:  /scratch/nm03/ae7501/access-om3/input
+work path:  /scratch/nm03/ae7501/access-om3/work
+archive path:  /scratch/nm03/ae7501/access-om3/archive
+Metadata and UUID generation is disabled. Experiment name used for archival: kimberly_1k_160926
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+Writing manifests/restart.yaml
+mod access3-share/2026.03.002-eale5gm
+mod access-cice/CICE6.6.3-2-huasrvo
+mod access-mocsy/2025.07.002-saj7rvh
+mod access-generic-tracers/2026.05.000-p2exrrl
+mod access-mom6/2026.05.002-5alarnj
+mod access-ww3/2026.03.001-bjzidie
+mod access3/2026.03.002-arkg6fo
+mod access-om3/2026.05.003
+mpirun --mca mpi_yield_when_idle true -wdir /scratch/nm03/ae7501/access-om3/work/kimberly_1k_160926 -np 2600  /scratch/nm03/ae7501/access-om3/work/kimberly_1k_160926/access-om3-MOM6
+Provenance information is written to restarts: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart002/restart_metadata.yaml
+/usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
+laboratory path:  /scratch/nm03/ae7501/access-om3
+binary path:  /scratch/nm03/ae7501/access-om3/bin
+input path:  /scratch/nm03/ae7501/access-om3/input
+work path:  /scratch/nm03/ae7501/access-om3/work
+archive path:  /scratch/nm03/ae7501/access-om3/archive
+Metadata and UUID generation is disabled. Experiment name used for archival: kimberly_1k_160926
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+------ Job submitted ------
+Submitted command: qsub -P nm03 -l walltime=2:00:00 -l ncpus=1 -l mem=30GB -l jobfs=10GB -N kimberly_1k_1_c -l wd -j n -W umask=027 -W depend=afterok:179263899.gadi-pbs -q normalsr -l storage=gdata/av17+gdata/qv56+scratch/nm03+gdata/vk83 -v PAYU_PATH=/containerised_envs/payu/1.3.6_1/bin,PAYU_CURRENT_RUN=2,PAYU_EXIST_WORKFLOW=True,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data/xp65/public/modules:/g/data/vk83/modules:/etc/scl/modulefiles:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -- /g/data/vk83/apps/containerised_envs/envs/payu/1.3.6_1/bin/launcher.sh /containerised_envs/payu/1.3.6_1/bin/python3.10 /containerised_envs/payu/1.3.6_1/bin/payu-collate
+Job ID: 179271627.gadi-pbs
+payu: Found modules in /opt/Modules/v4.3.0
+
+======================================================================================
+                  Resource Usage on 2026-09-18 03:05:45:
+   Job Id:             179263899.gadi-pbs
+   Project:            nm03
+   Exit Status:        0
+   Service Units:      22683.56
+   NCPUs Requested:    2600                CPU Time Used: 11120:00:07     
+   Memory Requested:   12.5TB                Memory Used: 1.52TB          
+   Walltime Requested: 10:00:00            Walltime Used: 04:21:44        
+   JobFS Requested:    10.0GB                 JobFS Used: 8.32MB          
+======================================================================================
