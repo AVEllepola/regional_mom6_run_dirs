@@ -1,0 +1,45 @@
+laboratory path:  /scratch/nm03/ab8992/access-om3
+binary path:  /scratch/nm03/ab8992/access-om3/bin
+input path:  /scratch/nm03/ab8992/access-om3/input
+work path:  /scratch/nm03/ab8992/access-om3/work
+archive path:  /scratch/nm03/ab8992/access-om3/archive
+Metadata and UUID generation is disabled. Experiment name used for archival: anupiya-domain
+nruns: 1 nruns_per_submit: 1 subrun: 1
+payu: work path already exists.
+      Sweeping as --force option is True.
+Moving log kimberly-access.o179048691
+Moving log kimberly-access.e179048691
+Removing work path /scratch/nm03/ab8992/access-om3/work/anupiya-domain
+Removing symlink /g/data/nm03/ab8992/anupiya-domain/work
+payu: Found modules in /opt/Modules/v4.3.0
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up access-om3
+Checking exe, input and restart manifests
+Writing manifests/restart.yaml
+mod access3-share/2026.03.002-eale5gm
+mod access-cice/CICE6.6.3-2-huasrvo
+mod access-mocsy/2025.07.002-saj7rvh
+mod access-generic-tracers/2026.05.000-p2exrrl
+mod access-mom6/2026.05.002-5alarnj
+mod access-ww3/2026.03.001-bjzidie
+mod access3/2026.03.002-arkg6fo
+mod access-om3/2026.05.003
+mpirun --mca mpi_yield_when_idle true -wdir /scratch/nm03/ab8992/access-om3/work/anupiya-domain -np 2080  /scratch/nm03/ab8992/access-om3/work/anupiya-domain/access-om3-MOM6
+/g/data/nm03/ab8992/anupiya-domain/access-om3.err /scratch/nm03/ab8992/access-om3/archive/anupiya-domain/error_logs/access-om3.179049360.gadi-pbs.err
+/g/data/nm03/ab8992/anupiya-domain/access-om3.out /scratch/nm03/ab8992/access-om3/archive/anupiya-domain/error_logs/access-om3.179049360.gadi-pbs.out
+/g/data/nm03/ab8992/anupiya-domain/env.yaml /scratch/nm03/ab8992/access-om3/archive/anupiya-domain/error_logs/env.179049360.gadi-pbs.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+
+======================================================================================
+                  Resource Usage on 2026-09-15 14:25:19:
+   Job Id:             179049360.gadi-pbs
+   Project:            nm03
+   Exit Status:        1
+   Service Units:      273.87
+   NCPUs Requested:    2080                CPU Time Used: 31:13:02        
+   Memory Requested:   9.77TB                Memory Used: 953.15GB        
+   Walltime Requested: 02:00:00            Walltime Used: 00:01:19        
+   JobFS Requested:    500.0GB                JobFS Used: 8.32MB          
+======================================================================================

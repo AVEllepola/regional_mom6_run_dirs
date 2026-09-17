@@ -1,0 +1,108 @@
+format: yamanifest
+version: 1.0
+---
+work/INPUT/ERA5-datm-ESMFmesh.nc:
+  fullpath: /g/data/vk83/prerelease/configurations/inputs/access-om3/share/meshes/share/2026.07.30/ERA5-datm-ESMFmesh.nc
+  hashes:
+    binhash: 88d8b5dfcec7f3c17c75c31e25e2b11d
+    md5: 22cd6e2d70af20ee75a229e054974019
+work/INPUT/JRA55do-drof-ESMFmesh.nc:
+  fullpath: /g/data/vk83/configurations/inputs/access-om3/share/meshes/share/2026.01.21/JRA55do-drof-ESMFmesh.nc
+  hashes:
+    binhash: 780e2ab02c4560e247c96bba2817ccc5
+    md5: bf62c4e7786ddfbe56d61b3074d5d16d
+work/INPUT/access-rom3-ESMFmesh.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/access-rom3-ESMFmesh.nc
+  hashes:
+    binhash: 2c1300853b908e223486c361d8f499ec
+    md5: 0c90741df7edde06727a530de5541e5e
+work/INPUT/access-rom3-nomask-ESMFmesh.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/access-rom3-nomask-ESMFmesh.nc
+  hashes:
+    binhash: 6c35c4044063cdf328647cff31c1536f
+    md5: 324f1b403c4c2f6220ca2d53af921247
+work/INPUT/bathymetry.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/bathymetry.nc
+  hashes:
+    binhash: 70d7f2ad02c3da2e6218c7aea3a66eea
+    md5: 84cf3888bd388a87785259106cf55507
+work/INPUT/bathymetry_original.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/bathymetry_original.nc
+  hashes:
+    binhash: 7998b2632659a2764d75a73309a3f70e
+    md5: 7fbc58755811efb7e80adabe4394f74f
+work/INPUT/bathymetry_unfinished.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/bathymetry_unfinished.nc
+  hashes:
+    binhash: f348d08a881569ea750665b503086bc6
+    md5: ebc12fd8117c47297c1c141991c5076e
+work/INPUT/forcing_obc_segment_001.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/forcing_obc_segment_001.nc
+  hashes:
+    binhash: dd2e52c9aa6d05ad9d57169386237d7f
+    md5: bedc4a9744693df60cb16c4b0cf8f4da
+work/INPUT/forcing_obc_segment_002.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/forcing_obc_segment_002.nc
+  hashes:
+    binhash: f7f7e7ad7af6140dda109aadf448db9f
+    md5: cd98784f3331a2324f8f5d4861c61b02
+work/INPUT/forcing_obc_segment_003.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/forcing_obc_segment_003.nc
+  hashes:
+    binhash: 358376baa3439d59a41d71aac709b1b1
+    md5: 2b9348051f2767d6a0fe021fdbad4466
+work/INPUT/forcing_obc_segment_004.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/forcing_obc_segment_004.nc
+  hashes:
+    binhash: c7d6e1c6cc477459d931ee59e4adb908
+    md5: 531232198bd9ac8b56abf8ba88a94bb0
+work/INPUT/hgrid.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/hgrid.nc
+  hashes:
+    binhash: 47f39c1859e92dcb6dda0ff4c9ec12ac
+    md5: 4b2d9572e514ad06fb19e11ed0f30bdb
+work/INPUT/init_eta.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/init_eta.nc
+  hashes:
+    binhash: 7ad024ce97d8cd4b24c3df42d2ea44fb
+    md5: edef296e48147980c09d10077ac08d36
+work/INPUT/init_tracers.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/init_tracers.nc
+  hashes:
+    binhash: eb93e4d2d9b4fd10af31035e3da5a911
+    md5: 8cbcbf9d8c89f4cc60d09ecc38ab3dde
+work/INPUT/init_vel.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/init_vel.nc
+  hashes:
+    binhash: 2ea772d1980afd7b0af4279061214e71
+    md5: 010842b0288d20bce75ef298981612ee
+work/INPUT/vcoord.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/vcoord.nc
+  hashes:
+    binhash: 465a32552940f277a39b7547061b4f5f
+    md5: 01a55901343a8c3f758e2f6d4abcb11a
+work/INPUT/vgrid.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/vgrid.nc
+  hashes:
+    binhash: 271a22478dcf4a306dc84add70f26e32
+    md5: 01a55901343a8c3f758e2f6d4abcb11a
+work/INPUT/weights/bilinear_tracer_weights_east.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/weights/bilinear_tracer_weights_east.nc
+  hashes:
+    binhash: 345d42a6f9013cd22edb4d1f9f80551b
+    md5: 8aeedce4d9054633e3b7540972de405c
+work/INPUT/weights/bilinear_tracer_weights_north.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/weights/bilinear_tracer_weights_north.nc
+  hashes:
+    binhash: 99ce2163b51fa36b1fa109a8cbf6e11e
+    md5: 27b9381627fb29ee3a385eea5729e0e1
+work/INPUT/weights/bilinear_tracer_weights_south.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/weights/bilinear_tracer_weights_south.nc
+  hashes:
+    binhash: 7a5344ebe07611fdfdc09ec41b7cbadd
+    md5: 31cfea65d010842ccc4706599984986b
+work/INPUT/weights/bilinear_tracer_weights_west.nc:
+  fullpath: /scratch/nm03/ab8992/anupiya_inputs/weights/bilinear_tracer_weights_west.nc
+  hashes:
+    binhash: 0d1d8cf30aadeaf3e3f8ffaa9acbd5f2
+    md5: 0878f165998a6b5cdf5c2907e0a72d5e

@@ -1,0 +1,16 @@
+&datm_nml
+    datamode = 'ERA5'
+    factorfn_data = 'null'
+    factorfn_mesh = 'null'
+    flds_co2 = .false.
+    flds_presaero = .false.
+    flds_presndep = .false.
+    flds_preso3 = .false.
+    iradsw = 1
+    model_maskfile = './INPUT/access-rom3-nomask-ESMFmesh.nc'
+    model_meshfile = './INPUT/access-rom3-nomask-ESMFmesh.nc'
+    nx_global = 1677
+    ny_global = 1358
+    restfilm = 'null'
+    skip_restart_read = .false.
+/
