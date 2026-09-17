@@ -1,0 +1,12 @@
+
+======================================================================================
+                  Resource Usage on 2026-09-17 22:08:03:
+   Job Id:             179262552.gadi-pbs
+   Project:            nm03
+   Exit Status:        127
+   Service Units:      0.00
+   NCPUs Requested:    1                   CPU Time Used: 00:00:00        
+   Memory Requested:   30.0GB                Memory Used: 8.04MB          
+   Walltime Requested: 02:00:00            Walltime Used: 00:00:01        
+   JobFS Requested:    10.0GB                 JobFS Used: 0B              
+======================================================================================

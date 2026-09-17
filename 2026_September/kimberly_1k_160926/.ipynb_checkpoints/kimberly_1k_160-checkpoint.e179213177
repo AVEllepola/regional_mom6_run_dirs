@@ -1,0 +1,24 @@
+Loading access-om3/2026.05.003
+  Loading requirement: access3-share/2026.03.002-eale5gm
+    access-cice/CICE6.6.3-2-huasrvo access-mocsy/2025.07.002-saj7rvh
+    access-generic-tracers/2026.05.000-p2exrrl access-mom6/2026.05.002-5alarnj
+    access-ww3/2026.03.001-bjzidie access3/2026.03.002-arkg6fo
+[ERROR] Unable to create symlink in work directory. File not found: /scratch/nm03/ae7501/mom6_input_directories/kimberly_1k_160926/rundir
+Traceback (most recent call last):
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/cli.py", line 337, in _execute_command
+    func(**args)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/subcommands/run_cmd.py", line 201, in runscript
+    expt.setup()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/experiment.py", line 69, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/experiment.py", line 578, in setup
+    model.setup()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/models/cesm_cmeps.py", line 149, in setup
+    super().setup()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/models/model.py", line 311, in setup
+    self.expt.manifest.add_filepath(
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/manifest.py", line 372, in add_filepath
+    self.manifests[manifest].make_link(filepath)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/manifest.py", line 189, in make_link
+    raise FileNotFoundError(
+FileNotFoundError: Unable to create symlink in work directory. File not found: /scratch/nm03/ae7501/mom6_input_directories/kimberly_1k_160926/rundir

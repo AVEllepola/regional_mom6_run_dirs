@@ -1,0 +1,15 @@
+Loading access-om3/2026.05.003
+  Loading requirement: access3-share/2026.03.002-eale5gm
+    access-cice/CICE6.6.3-2-huasrvo access-mocsy/2025.07.002-saj7rvh
+    access-generic-tracers/2026.05.000-p2exrrl access-mom6/2026.05.002-5alarnj
+    access-ww3/2026.03.001-bjzidie access3/2026.03.002-arkg6fo
+Currently Loaded Modulefiles:
+ 1) access3-share/2026.03.002-eale5gm            8) access-om3/2026.05.003  
+ 2) access-cice/CICE6.6.3-2-huasrvo              9) pbs                     
+ 3) access-mocsy/2025.07.002-saj7rvh            10) openmpi/4.1.7           
+ 4) access-generic-tracers/2026.05.000-p2exrrl  
+ 5) access-mom6/2026.05.002-5alarnj             
+ 6) access-ww3/2026.03.001-bjzidie              
+ 7) access3/2026.03.002-arkg6fo                 
+[ERROR] Model exited with error code 1
+[WARNING] Error sending telemetry. See error log at /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/error_logs/telemetry.log for details.

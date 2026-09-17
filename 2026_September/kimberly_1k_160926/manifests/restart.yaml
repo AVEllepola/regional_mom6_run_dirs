@@ -1,3 +1,93 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/access-om3.cpl.r.2017-01-24-00000.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.cpl.r.2017-01-24-00000.nc
+  hashes:
+    binhash: fdae98a09ee43b05a2381da339a04424
+    md5: b6548daa922bcf4daf538c55a10919c8
+work/access-om3.datm.r.2017-01-24-00000.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.datm.r.2017-01-24-00000.nc
+  hashes:
+    binhash: 50ecda71d4b5c7492ecc200e533d87c6
+    md5: 10babf7607bfd385fb5d516030562268
+work/access-om3.drof.r.2017-01-24-00000.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.drof.r.2017-01-24-00000.nc
+  hashes:
+    binhash: 276f2137dceaf3eb4d3ce475aa054b0d
+    md5: a3f7d6a4a8cea87baa0115f9cf847ade
+work/access-om3.mom6.r.2017-01-24-00000.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.mom6.r.2017-01-24-00000.nc
+  hashes:
+    binhash: 90636d828b69602434b904631356021f
+    md5: 55461da4cfaa67d74af6987fd67e69ef
+work/access-om3.mom6.r.2017-01-24-00000_1.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.mom6.r.2017-01-24-00000_1.nc
+  hashes:
+    binhash: 2cb55481212a9ee5df90719ed1bde0bb
+    md5: 111965f490f3b9b69311104942e8ff6d
+work/access-om3.mom6.r.2017-01-24-00000_2.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.mom6.r.2017-01-24-00000_2.nc
+  hashes:
+    binhash: 6134dab64d69d55ef555c8feaf194561
+    md5: 79f74f55ffca7ab636f80c34b75930c2
+work/access-om3.mom6.r.2017-01-24-00000_3.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.mom6.r.2017-01-24-00000_3.nc
+  hashes:
+    binhash: a6409c12bfa7a27022182558650b9179
+    md5: 680c90b9842fcbe676cd524d81e70171
+work/access-om3.mom6.r.2017-01-24-00000_4.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.mom6.r.2017-01-24-00000_4.nc
+  hashes:
+    binhash: 09b1a167a919b57242cd177b53d2b62e
+    md5: 4a96646afe346675668cd640b6511779
+work/access-om3.mom6.r.2017-01-24-00000_5.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.mom6.r.2017-01-24-00000_5.nc
+  hashes:
+    binhash: da7e6f5fe45c63d6c081abd482d91e3a
+    md5: 15e615e50576b36bfda4c7ff1fe62ce9
+work/access-om3.mom6.r.2017-01-24-00000_6.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.mom6.r.2017-01-24-00000_6.nc
+  hashes:
+    binhash: 5a43a73e39b0e7b652b909411e59ffbc
+    md5: 279575334ebb706c07fc7d4184c8a54c
+work/access-om3.mom6.r.2017-01-24-00000_7.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.mom6.r.2017-01-24-00000_7.nc
+  hashes:
+    binhash: 8eb72acfd14cd73392cd74b744347f14
+    md5: f4accd7066c63ded905f6db2ea054108
+work/access-om3.mom6.r.2017-01-24-00000_8.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.mom6.r.2017-01-24-00000_8.nc
+  hashes:
+    binhash: 21bd3f61f3ecf290595b47bf5c22886f
+    md5: aa52d6084029e1dcf83d4d37cafb4272
+work/access-om3.mom6.r.2017-01-24-00000_9.nc:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/access-om3.mom6.r.2017-01-24-00000_9.nc
+  hashes:
+    binhash: d09c4f7b8cb16dd754aaf1e999ac9a35
+    md5: 30cd43214dff885d8699771e459b099b
+work/restart_metadata.yaml:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/restart_metadata.yaml
+  hashes:
+    binhash: 0d413e6af3fb59ca6e0b77c1c075f064
+    md5: 5d33738be8c7224f2b55b65886e78cee
+work/rpointer.atm:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/rpointer.atm
+  hashes:
+    binhash: 33794446b091d219d3c4ecc0fcb6ca3f
+    md5: de4920f293b378adaa5cdf6a4b13f42f
+work/rpointer.cpl:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/rpointer.cpl
+  hashes:
+    binhash: 446cd6df1977bb7304c0965c85e10cea
+    md5: 4298195c2b360502f7c5fb45c5e15ba5
+work/rpointer.ocn:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/rpointer.ocn
+  hashes:
+    binhash: dcd8941f07fac281db10b19b85e41341
+    md5: c7a7c7208b3c3a12f445e84840778c32
+work/rpointer.rof:
+  fullpath: /scratch/nm03/ae7501/access-om3/archive/kimberly_1k_160926/restart001/rpointer.rof
+  hashes:
+    binhash: 6aee5a597a85c0477eaeac169ec1d196
+    md5: 38b94e6894c4d3044cd51ccd3465138d

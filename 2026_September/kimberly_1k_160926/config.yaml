@@ -17,7 +17,7 @@ modules:
 
 queue: normalsr
 ncpus: 2600
-jobfs: 500GB
+jobfs: 10GB
 # mem: 10000GB
 walltime: 10:00:00
 jobname: kimberly_1k_160926
@@ -45,7 +45,25 @@ mpi:
     flags:
         - --mca mpi_yield_when_idle true
 
-collate: false
+modules:
+    use:
+        - /g/data/vk83/modules
+        - /g/data/x77/ahg157/spack/1.1/release/modules/linux-rocky8-x86_64
+    load:
+        - access-om3/2025.08.003-tracers-from-file
+        - model-tools/mppnccombine-fast
+        - nco/5.0.5
+        - fre-nctools/2024.05-1
+
+collate:
+    flags: -n4 -m -r
+    exe: mppnccombine
+    restart: true
+    mpi: false
+    walltime: 2:00:00
+    mem: 30GB
+    ncpus: 1
+    queue: normalsr
 
 userscripts:
     archive: /usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh

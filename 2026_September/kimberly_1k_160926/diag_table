@@ -45,38 +45,44 @@ ACCESS-OM3
 
 #"access-om3.mom6.3d.e.7day.mean", 7, "days", 1, "days", "time"
 #"ocean_model", "e", "e", "access-om3.mom6.3d.e.7day.mean", "all", "average", "none", 2
-
 #"access-om3.mom6.3d.thkcello.7day.mean", 7, "days", 1, "days", "time"
 #"ocean_model", "thkcello", "thkcello", "access-om3.mom6.3d.thkcello.7day.mean", "all", "average", "none", 2
 
-"mom6.3d_daily.thetao", 1, "days", 1, "days", "time"
-"ocean_model_z", "thetao", "thetao", "mom6.3d_daily.thetao", "all", "average", "none", 2
 
-"mom6.3d_daily.so", 1, "days", 1, "days", "time"
-"ocean_model_z", "so", "so", "mom6.3d_daily.so", "all", "average", "none", 2
 
-"mom6.3d_daily.uo", 1, "hours", 1, "hours", "time"
-"ocean_model_z", "uo", "uo", "mom6.3d_daily.uo", "all", "average", "none", 2
 
-"mom6.3d_daily.vo", 1, "hours", 1, "hours", "time"
-"ocean_model_z", "vo", "vo", "mom6.3d_daily.vo", "all", "average", "none", 2
+"mom6.3d_halfdaily.thetao", 12, "hours", 1, "hours", "time"
+"ocean_model_z", "thetao", "thetao", "mom6.3d_halfdaily.thetao", "all", "average", "118 126 -19 -12 -1 -1", 2
+
+"mom6.3d_halfdaily.so", 12, "hours", 1, "hours", "time"
+"ocean_model_z", "so", "so", "mom6.3d_halfdaily.so", "all", "average", "118 126 -19 -12 -1 -1", 2
+
+"mom6.3d_halfdaily.uo", 12, "hours", 1, "hours", "time"
+"ocean_model_z", "uo", "uo", "mom6.3d_halfdaily.uo", "all", "average", "118 126 -19 -12 -1 -1", 2
+
+"mom6.3d_halfdaily.vo", 12, "hours", 1, "hours", "time"
+"ocean_model_z", "vo", "vo", "mom6.3d_halfdaily.vo", "all", "average", "118 126 -19 -12 -1 -1", 2
+
+"mom6.3d_halfdaily.rhoinsitu", 12, "hours", 1, "hours", "time"
+"ocean_model_z", "rhoinsitu", "rhoinsitu", "mom6.3d_halfdaily.rhoinsitu", "all", "average", "118 126 -19 -12 -1 -1", 2
+
 
 
 # daily surface fields on native
 
+"mom6.surface_1hr", 1, "hours", 1, "hours", "time"
 "mom6.surface_3hr", 3, "hours", 1, "hours", "time"
 
-"ocean_model", "sss", "sss", "mom6.surface_3hr", "all", "average", "none", 2
+"ocean_model", "sss", "sss", "mom6.surface_1hr", "all", "average", "none", 2
+"ocean_model", "tos", "tos", "mom6.surface_1hr", "all", "average", "none", 2
+"ocean_model", "ssh", "ssh", "mom6.surface_1hr", "all", "average", "none", 2
+"ocean_model", "speed", "speed", "mom6.surface_1hr", "all", "average", "none", 2
+"ocean_model", "taux", "taux", "mom6.surface_1hr", "all", "average", "none", 2
+"ocean_model", "tauy", "tauy", "mom6.surface_1hr", "all", "average", "none", 2
+
+
+"ocean_model", "MLD_003", "MLD_003", "mom6.surface_3hr", "all", "average", "none", 2
 "ocean_model", "mlotstsq", "mlotstsq", "mom6.surface_3hr", "all", "average", "none", 2
-"ocean_model", "tos", "tos", "mom6.surface_3hr", "all", "average", "none", 2
-"ocean_model", "ssh", "ssh", "mom6.surface_3hr", "all", "average", "none", 2
-"ocean_model", "speed", "speed", "mom6.surface_3hr", "all", "average", "none", 2
-"ocean_model", "taux", "taux", "mom6.surface_3hr", "all", "average", "none", 2
-"ocean_model", "tauy", "tauy", "mom6.surface_3hr", "all", "average", "none", 2
-"ocean_model", "SW", "SW", "mom6.surface_3hr", "all", "average", "none", 2
-"ocean_model", "LW", "LW", "mom6.surface_3hr", "all", "average", "none", 2
-"ocean_model", "latent", "latent", "mom6.surface_3hr", "all", "average", "none", 2
-"ocean_model", "sensible", "sensible", "mom6.surface_3hr", "all", "average", "none", 2
 
 
 
