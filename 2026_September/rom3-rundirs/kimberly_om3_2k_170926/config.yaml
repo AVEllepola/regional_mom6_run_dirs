@@ -1,0 +1,61 @@
+# PBS configuration
+
+# If submitting to a different project to your default, uncomment line below 
+# and change project code as appropriate; also set shortpath below
+project: nm03
+
+# Force payu to always find, and save, files in this scratch project directory
+# (you may need to add the corresponding PBS -l storage flag in sync_data.sh)
+# shortpath: /scratch/v45
+# Model software version
+modules:
+    use:
+        - /g/data/vk83/modules
+    load:
+        - access-om3/2026.05.003
+
+queue: normalsr
+ncpus: 2600
+jobfs: 10GB
+#mem: 1000GB
+
+walltime: 10:00:00
+jobname: kimberly_om3_2k_170926
+
+model: access-om3
+
+exe: access-om3-MOM6
+input:
+    - /g/data/nm03/ae7501/rom3-inputdirs/kimberly_om3_2k_170926
+    - /g/data/vk83/configurations/inputs/access-om3/share/meshes/share/2024.09.16/JRA55do-drof-ESMFmesh.nc
+    - /g/data/qv56/replicas/input4MIPs/CMIP6Plus/OMIP/MRI/MRI-JRA55-do-1-6-0/land/
+    - /g/data/qv56/replicas/input4MIPs/CMIP6Plus/OMIP/MRI/MRI-JRA55-do-1-6-0/landIce/
+    - /g/data/vk83/prerelease/configurations/inputs/access-om3/share/meshes/share/2026.07.30/ERA5-datm-ESMFmesh.nc
+    - /g/data/av17/access-nri/OM3/era5_rechunked_1h_yearly/
+
+collate: false
+runlog: false
+metadata:
+    enable: false
+
+manifest:
+    reproduce:
+        exe: true
+        input: false
+mpi:
+    flags:
+        - --mca mpi_yield_when_idle true
+
+#platform:
+ #   nodesize: 104
+  #  nodemem: 512
+
+userscripts:
+     setup: /usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/setup.sh
+#     archive: /usr/bin/bash /g/data/vk83/apps/om3-scripts/payu_config/archive.sh
+
+qsub_flags: -W umask=027
+
+restart_freq: 1YS
+payu_minimum_version: 1.3.2
+

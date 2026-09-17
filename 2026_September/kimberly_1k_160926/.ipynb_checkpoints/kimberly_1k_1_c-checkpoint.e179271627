@@ -1,0 +1,54 @@
+[WARNING] Details: while constructing a mapping
+  in "config.yaml", line 5, column 1
+found duplicate key "modules" with value "{}" (original value: "{}")
+  in "config.yaml", line 48, column 1
+
+To suppress this check see:
+    https://yaml.dev/doc/ruamel.yaml/api/#Duplicate_keys
+
+    ---------------------------
+    Duplicate key found in config file.
+    Payu will keep the first value for this key.
+    --------------------------- 
+Loading access-om3/2026.05.003
+  Loading requirement: access3-share/2026.03.002-eale5gm
+    access-cice/CICE6.6.3-2-huasrvo access-mocsy/2025.07.002-saj7rvh
+    access-generic-tracers/2026.05.000-p2exrrl access-mom6/2026.05.002-5alarnj
+    access-ww3/2026.03.001-bjzidie access3/2026.03.002-arkg6fo
+[ERROR] [Errno 2] No such file or directory: '/scratch/nm03/ae7501/access-om3/bin/mppnccombine'
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/models/fms.py", line 47, in cmdthread
+    output = sp.check_output(shlex.split(cmd), cwd=cwd, stderr=sp.STDOUT)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/subprocess.py", line 1842, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/nm03/ae7501/access-om3/bin/mppnccombine'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/cli.py", line 337, in _execute_command
+    func(**args)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/subcommands/collate_cmd.py", line 143, in runscript
+    expt.collate()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/experiment.py", line 69, in wrapper
+    result = func(self, *args, **kwargs)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/experiment.py", line 1002, in collate
+    mapping_collate_dict = model.collate()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/models/cesm_cmeps.py", line 384, in collate
+    fms_collate(self)
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/site-packages/payu/models/fms.py", line 326, in fms_collate
+    rc, op = result.get()
+  File "/containerised_envs/payu/1.3.6_1/lib/python3.10/multiprocessing/pool.py", line 771, in get
+    raise self._value
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/nm03/ae7501/access-om3/bin/mppnccombine'
